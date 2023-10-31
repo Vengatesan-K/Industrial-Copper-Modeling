@@ -1,3 +1,4 @@
 streamlit_lottie
 streamlit_extras
 plotly
+scikit-learn
