@@ -185,8 +185,6 @@ if submit_button and flag == 1:
     st.write("Please enter a valid number; spaces are not allowed.")
 
 if submit_button and flag == 0:
-            
-            import pickle
             with open(r"Model/rmodel.pkl", 'rb') as file:
                 loaded_model = pickle.load(file)
             with open(r'Model/rscaler.pkl.pkl', 'rb') as f:
