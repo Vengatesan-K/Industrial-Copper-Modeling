@@ -187,7 +187,7 @@ if submit_button and flag == 1:
 if submit_button and flag == 0:
             with open(r"Model/rmodel.pkl", 'rb') as file:
                 loaded_model = pickle.load(file)
-            with open(r'Model/rscaler.pkl.pkl', 'rb') as f:
+            with open(r'Model/rscaler.pkl', 'rb') as f:
                 scaler_loaded = pickle.load(f)
 
             with open(r"Model/encr.pkl", 'rb') as f:
